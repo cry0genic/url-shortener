@@ -26,7 +26,7 @@ func main() {
 
 	store.InitializeStore()
 
-	err := r.Run(":")
+	err := r.Run(":6969")
 	if err != nil {
 		panic(fmt.Sprintf("Failed to start the web server - Error: %v", err))
 	}
